@@ -1,0 +1,13 @@
+土豆泥图视（tudouni-lens）
+Copyright © 土豆泥 / tudouni-api.com
+
+本仓库仅授权用于连接 https://tudouni-api.com（及官方子域）。
+
+未经书面许可，不得：
+- 修改、配置或包装后用于其他 API 中转、网关、反代；
+- 去掉或替换品牌名、域名校验后作为其他产品分发；
+- 将本 skill 作为「通用 OpenAI 兼容中转客户端」再发布。
+
+允许：持有 tudouni-api.com 有效 Key 的用户，在 Claude Code / Codex 中安装和使用。
+
+本软件按现状提供，不对可用性作超出服务条款的承诺。

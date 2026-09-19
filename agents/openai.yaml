@@ -1,0 +1,6 @@
+interface:
+  display_name: "土豆泥图视"
+  short_description: "中转站出图出视频，活货盘与钥匙盒"
+  default_prompt: "打开土豆泥图视：先接待并给出呼出菜单，价只提一次。"
+policy:
+  allow_implicit_invocation: true

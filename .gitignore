@@ -1,0 +1,13 @@
+diagrams/
+output/
+__pycache__/
+*.pyc
+.env
+.tudouni/
+*.mp4
+*.png
+*.jpg
+!docs/
+!docs/examples/
+!docs/examples/**
+!references/**

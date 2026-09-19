@@ -1,0 +1,53 @@
+{
+  "base_url_default": "https://tudouni-api.com",
+  "plaza": "https://tudouni-api.com",
+  "pricing_note": "登录 tudouni-api.com 打开模型广场查看现价，插件不写死单价",
+  "hold": [
+    "seedance2-pro",
+    "newtoken",
+    "MiniMax-H3-Mini"
+  ],
+  "audio": [],
+  "images": [
+    {
+      "id": "gpt-image-2-1k",
+      "kind": "image",
+      "size_default": "1024x1024",
+      "sizes": ["1024x1024", "1536x1024", "1024x1536"]
+    }
+  ],
+  "videos": [
+    {
+      "id": "sd2-fast",
+      "kind": "video",
+      "seconds_default": 5,
+      "resolution": "720p"
+    },
+    {
+      "id": "sd2-pro",
+      "kind": "video",
+      "seconds_default": 5,
+      "resolution": "720p"
+    },
+    {
+      "id": "sd2.5",
+      "kind": "video",
+      "seconds_default": 5,
+      "resolution": "720p"
+    },
+    {
+      "id": "H3video-2k",
+      "kind": "video",
+      "seconds_default": 15,
+      "seconds_lock": 15,
+      "resolution": "2k",
+      "lock": true
+    },
+    {
+      "id": "MiniMax-H3",
+      "kind": "video",
+      "seconds_default": 6,
+      "resolution": "720p"
+    }
+  ]
+}
