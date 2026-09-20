@@ -1,0 +1,19 @@
+{
+  "name": "tudouni-lens",
+  "version": "2.5.2",
+  "description": "土豆泥图视：在对话中开启图片与视频创作，让每次灵感都有清晰的下一步。",
+  "author": {
+    "name": "土豆泥"
+  },
+  "homepage": "https://tudouni-api.com",
+  "license": "Proprietary",
+  "keywords": [
+    "images",
+    "video",
+    "api",
+    "tudouni"
+  ],
+  "skills": [
+    "./skills/"
+  ]
+}

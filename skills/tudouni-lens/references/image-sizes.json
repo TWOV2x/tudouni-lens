@@ -1,0 +1,117 @@
+{
+  "source": "Published per-Key Studio plans, read 2026-09-20. This is parameter metadata, not a price or runtime success claim.",
+  "models": {
+    "gpt-image-2.5-sunburst-4k": {
+      "options": [
+        "3840x2160",
+        "2880x2880",
+        "3520x2352",
+        "2352x3520"
+      ],
+      "default": "3840x2160"
+    },
+    "gpt-image-2.5-sunburst-2k": {
+      "options": [
+        "2048x2048",
+        "3072x2048",
+        "2048x3072"
+      ],
+      "default": "2048x2048"
+    },
+    "gpt-image-2.5-sunburst-1k": {
+      "options": [
+        "1024x1024",
+        "1536x1024",
+        "1024x1536"
+      ],
+      "default": "1024x1024"
+    },
+    "gpt-image-2.5-4k": {
+      "options": [
+        "3840x2160",
+        "2880x2880",
+        "3520x2352",
+        "2352x3520"
+      ],
+      "default": "3840x2160"
+    },
+    "gpt-image-2.5-2k": {
+      "options": [
+        "2048x2048",
+        "3072x2048",
+        "2048x3072"
+      ],
+      "default": "2048x2048"
+    },
+    "gpt-image-2.5-1k": {
+      "options": [
+        "1024x1024",
+        "1536x1024",
+        "1024x1536"
+      ],
+      "default": "1024x1024"
+    },
+    "gpt-image-2-4k": {
+      "options": [
+        "3840x2160"
+      ],
+      "default": "3840x2160"
+    },
+    "gpt-image-2-2k": {
+      "options": [
+        "2048x2048"
+      ],
+      "default": "2048x2048"
+    },
+    "nano-banana-2-leo": {
+      "options": [
+        "1024x1024",
+        "1536x864",
+        "864x1536",
+        "1344x896",
+        "896x1344",
+        "2048x2048",
+        "2304x1728",
+        "1728x2304",
+        "3840x2160"
+      ],
+      "default": "1024x1024"
+    },
+    "nano-banana-2": {
+      "options": [
+        "1024x1024",
+        "1536x864",
+        "864x1536",
+        "1344x896",
+        "896x1344",
+        "2048x2048",
+        "2304x1728",
+        "1728x2304",
+        "3840x2160"
+      ],
+      "default": "1024x1024"
+    },
+    "nano-banana-pro": {
+      "options": [
+        "1024x1024",
+        "1536x864",
+        "864x1536",
+        "1344x896",
+        "896x1344",
+        "2048x2048",
+        "2304x1728",
+        "1728x2304",
+        "3840x2160"
+      ],
+      "default": "1024x1024"
+    },
+    "gpt-image-2-1k": {
+      "options": [
+        "1024x1024",
+        "1024x1536",
+        "1536x1024"
+      ],
+      "default": "1024x1024"
+    }
+  }
+}

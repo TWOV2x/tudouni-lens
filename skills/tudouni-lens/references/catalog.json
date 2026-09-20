@@ -47,7 +47,9 @@
       "id": "MiniMax-H3",
       "kind": "video",
       "seconds_default": 6,
-      "resolution": "720p"
+      "resolution": "720p",
+      "parameter_style": "size",
+      "sizes": ["1280x720", "720x1280", "1024x1024", "960x720", "720x960", "1680x720"]
     }
   ]
 }

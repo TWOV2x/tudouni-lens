@@ -11,9 +11,5 @@ __pycache__/
 !docs/examples/
 !docs/examples/**
 !references/**
-*.zip
-*.pyo
 !assets/
 !assets/**
-!skills/tudouni-lens/assets/
-!skills/tudouni-lens/assets/**

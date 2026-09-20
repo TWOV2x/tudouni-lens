@@ -1,85 +1,105 @@
-# tudouni-lens
+<div align="center">
 
-**Codex / Claude Code · API 生图视频**
+<img src="assets/tudouni-logo.png" alt="土豆泥图视" width="120" />
 
-土豆泥粉提了很久：API 接到 Codex、Claude Code 这类桌面端，聊天是通的，图和视频就是不行。
+# 土豆泥图视
 
-今天把这件事补上了。
+### 把想象，带到画面里。
 
-这是给外部大脑用的图视 skill。不另开网页，不来回拖文件。下载、放上你们在 [tudouni-api.com](https://tudouni-api.com) 的 Key，对着对话说「出一张…」「出一条视频…」，成品进当前项目。
+在 Codex 与 Claude Code 中，用自然对话开启图片与视频创作。
 
-只做图和视频。文字模型它碰都不碰——桌面端自己已经会聊了。
+[下载最新版](https://github.com/TWOV2x/tudouni-lens/releases/latest) · [土豆泥官网](https://tudouni-api.com) · [本次更新](https://github.com/TWOV2x/tudouni-lens/releases/tag/v2.5.2)
 
-## 桌面端实拍
+</div>
 
-人话进对话，图和视频掉进项目。下面两张是同一套 skill 在 Claude Code 里跑出来的。
+---
 
-出图：`image-2.5` · `2K` · 慈父手中线，游子身上衣
+## 你的创作，从一句话开始
 
-![慈父手中线，游子身上衣 · gpt-image-2.5-2k](docs/examples/cifu-youzi-2k.png)
+“帮我做一张电影感海报。”
 
-出视频：`MiniMax-H3` · 最短秒数 · 孙悟空 vs 猪八戒卡丁车跑圈
+“我想把这个故事，变成一段视频。”
 
-![孙悟空 vs 猪八戒卡丁车 · MiniMax-H3](docs/examples/wukong-bajie-kart.jpg)
+“打开土豆泥菜单，看看今天能用哪些模型。”
 
-## 现在能出什么
+把想法告诉助手。土豆泥图视带你连接、选择合适的创作方式，并把作品保存到当前项目。
 
-货盘跟你这把 Key 走，插件里不写死。这一刻货架上是这些（ID 叫什么就是什么）：
+## 这一次，让创作更顺手
 
-**图**
+### 一个菜单，打开更多可能
 
-- `gpt-image-2`（1K / 2K / 4K）
-- `gpt-image-2.5`（1K / 2K / 4K）
-- `gpt-image-2.5-sunburst`（1K / 2K / 4K）
-- `nano-banana-pro`
-- `nano-banana-2`
-- `nano-banana-2-leo`
+图片、视频、模型选择与作品入口，在对话里清晰展开。想看什么，直接说；随时一句“菜单”，回到创作起点。
 
-**视频**
+### 连接一次，专心创作
 
-- `MiniMax-H3`
-- `H3video-2k`
-- `doubao-seedance-2-0-260128`
-- `doubao-seedance-2-0-fast-260128`
-- `doubao-seedance-2-0-mini-260615`
-- `doubao-seedance-2-5-260628`
-- `sd2-fast`
-- `sd2.5`
-- `sd2-pro`
-- `wan3.0-video`
+首次使用，在连接窗口填写你的土豆泥 API Key。当前项目后续创作沿用已有连接，不必反复填写。
 
-以后广场上新什么，打开 skill 就能看见什么。现价去 [模型广场](https://tudouni-api.com) 看，这里不念价。
+### 模型上新，菜单随行
 
-## 怎么用
+每次打开菜单，都会重新读取当前账号可用的图片与视频模型。选择跟着网站更新，灵感不被固定清单限制。
 
-1. 把本仓库拷到
-   - Claude Code：`%USERPROFILE%\.claude\skills\tudouni-lens`
-   - Codex：`%USERPROFILE%\.agents\skills\tudouni-lens`
-   文件夹名必须是 `tudouni-lens`。
-2. 在 tudouni-api.com 开一把 Key，**单独一行**写进 `%USERPROFILE%\.tudouni\api_key`。别把 Key 发到聊天里。
-3. 对话里：Claude Code 打 `/tudouni-lens`，Codex 打 `$tudouni-lens`。
+### 接着上次的灵感，继续往前
 
-然后直接说人话就行：
+查看已有作品，接续正在进行的任务；成品下载遇到中断，也可以让助手继续保存。
 
-- 「出一张小猫打篮球」
-- 「image-2.5 的 2K，慈父手中线游子身上衣」
-- 「出一条 MiniMax-H3，孙悟空和猪八戒卡丁车」
-- 「我能出什么」
+### 熟悉的对话，统一的图视体验
 
-默认出图 1K。要 2K / 4K 说一声。视频会先问一句确认，再提交。换 Key 覆盖钥匙盒那个文件，不用关软件。
+面向 Codex 与 Claude Code，提供插件版与独立 skill 版。使用自己的土豆泥 API Key，按你的创作节奏开始。
 
-macOS / Linux 钥匙盒：`~/.tudouni/api_key`
+## 第一次见面，只需这样开始
 
-## 它怎么接上的
+1. 从 [最新发布页](https://github.com/TWOV2x/tudouni-lens/releases/latest) 下载适合客户端的版本。
+2. 把安装包交给助手，说：**“安装土豆泥图视，并打开菜单。”**
+3. 按提示完成一次连接，然后说出你想创作的画面。
 
-桌面端原生对话走的是文字接口。图和视频是另一路：图片生成 / 改图、视频提交再轮询。这个 skill 只走那一路，连的是 tudouni-api.com，货盘按你这把 Key 实时拉。钥匙放在本机盒子里，不进对话、不进仓库。
+<p align="center">
+  <img src="assets/setup-preview.png" alt="土豆泥图视连接窗口：填写 API Key 后开始使用" width="720" />
+</p>
 
-所以不是「再做一个聊天机器人」，是把你们已经付过钱的图视能力，接到你们每天待着的 Codex / Claude Code 里。
+Key 在连接窗口填写，不需要发到聊天里。安装、连接和作品整理，让助手带你完成。
 
-本 skill **只连接 tudouni-api.com**，不能改成别的中转站客户端（见 LICENSE）。
+## 你可以这样说
 
-## 一句体己的
+- **“打开土豆泥菜单。”** — 回到创作入口。
+- **“看看视频菜单。”** — 浏览当前可用的视频模型。
+- **“生成一张暖色调的咖啡品牌海报。”** — 开始图片创作。
+- **“做一段清晨山间云海的视频。”** — 开始视频创作。
+- **“我的作品在哪？”** — 找到已有作品。
+- **“继续刚才的任务。”** — 接着完成未结束的创作。
 
-你们提需求的时候，我们听得见。桌面端能聊不能画，这件事憋很久了。先把图和视频接上。用的时候卡了、货盘对不上、Key 换了出不来，来面板找我们。别把钥匙发到聊天里——盒子写好就行，我们不看你们的 Key。
+## 看看灵感的另一种样子
 
-晚上赶稿、白天试镜，说一声「出一张」，它就该在项目目录里。
+### 一张画面，留下故事的温度
+
+已有创作示例：月下的灯火、临行前的针线，把一句想法变成有情绪的画面。
+
+<p align="center">
+  <img src="docs/examples/cifu-youzi-2k.png" alt="土豆泥图视图片作品示例：月下临别与灯火" width="620" />
+</p>
+
+### 一段动态，让想象开始奔跑
+
+已有视频作品画面：卡丁车、弯道与追逐，把轻松的创意带进动态世界。
+
+<p align="center">
+  <img src="docs/examples/wukong-bajie-kart.jpg" alt="土豆泥图视视频作品画面：卡丁车追逐" width="340" />
+</p>
+
+## 选择适合你的版本
+
+- **[插件版](https://github.com/TWOV2x/tudouni-lens/releases/download/v2.5.2/tudouni-lens-plugin-v2.5.2.zip)**：适合支持插件安装的客户端，统一品牌图标与创作入口。
+- **[独立 skill 版](https://github.com/TWOV2x/tudouni-lens/releases/download/v2.5.2/tudouni-lens-skill-v2.5.2.zip)**：适合通过 skill 使用的环境，保留同样的对话创作方式。
+
+两种版本选择一种即可。[简明安装指引](INSTALL.md)
+
+可用模型、规格与价格以当前账号页面为准；新模型的创作支持以菜单提示为准。客户端需具备正常的工具运行能力。模型菜单更新与插件版本升级分别进行。
+
+---
+
+<div align="center">
+
+**土豆泥图视 · 让灵感，有处落笔。**
+
+[访问土豆泥](https://tudouni-api.com) · [下载最新版](https://github.com/TWOV2x/tudouni-lens/releases/latest)
+
+</div>

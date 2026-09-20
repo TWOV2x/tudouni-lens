@@ -1,0 +1,42 @@
+{
+  "name": "tudouni-lens",
+  "version": "2.5.2",
+  "description": "土豆泥图视：在对话中开启图片与视频创作，让每次灵感都有清晰的下一步。",
+  "author": {
+    "name": "土豆泥"
+  },
+  "homepage": "https://tudouni-api.com",
+  "license": "Proprietary",
+  "keywords": [
+    "images",
+    "video",
+    "api",
+    "tudouni"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "土豆泥图视",
+    "shortDescription": "从一句灵感，到图片与视频作品",
+    "longDescription": "连接你的土豆泥 API Key，在 Codex 中查看实时图视菜单，用自然对话开启图片与视频创作，接续任务并保存作品。",
+    "developerName": "土豆泥",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "websiteURL": "https://tudouni-api.com",
+    "composerIcon": "./assets/tudouni-logo.png",
+    "logo": "./assets/tudouni-logo.png",
+    "logoDark": "./assets/tudouni-logo.png",
+    "brandColor": "#BEE94B",
+    "defaultPrompt": [
+      "打开土豆泥图视菜单，带我开始使用",
+      "查看我现在可用的视频模型",
+      "用土豆泥图视帮我生成图片"
+    ],
+    "screenshots": [
+      "./assets/setup-preview.png"
+    ]
+  }
+}
